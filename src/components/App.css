@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.btn {
+  width: 100px;
+  height: 38px;
+  margin: 10px;
+}
+.text{
+  font-size: 35px;
+  margin: 10px;
+}
