@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import Button from './button';
+import Profile from './profile';
 
 class App extends React.Component {
 
@@ -54,6 +55,9 @@ class App extends React.Component {
         <Button func={this.handleStart} name="Start"/>
         <Button func={this.handleStop} name="Stop"/>
         <Button func={this.handleReset} name="Reset"/>
+        <br />
+        <br />
+        <Profile/>
       </div>
     );
   }
